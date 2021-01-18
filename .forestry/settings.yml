@@ -8,6 +8,8 @@ sections:
   path: README.md
   label: README
   read_only: true
+- type: heading
+  label: Blog Post
 - type: directory
   path: content/blog
   label: Post
@@ -15,8 +17,6 @@ sections:
   match: "**/*"
   templates:
   - post
-- type: heading
-  label: Blog Post
 - type: heading
   label: Others Pages
 - type: directory
